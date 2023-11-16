@@ -17,21 +17,27 @@ nav {
     text-align: center;
     width: 100%;
     display: flex;
-    gap: 3%;
+    gap: 10px;
 }
 
 .logo img {
+    height: auto;
     width: 5%;
+}
+
+.menu {
+    padding-top: 15px;
 }
 
 .menu img {
     width: 40%;
-    line-height: 80px;
 }
 
-.hero {
-   
+.menu-content {
+    display: none;
 }
+
+.hero {}
 
 .item {
     display: grid;
@@ -72,7 +78,7 @@ button {
     border-radius: 4px;
 }
 
-.filter{
+.filter {
     padding-top: 5px;
     text-align: center;
     width: 100%;
