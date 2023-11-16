@@ -55,12 +55,12 @@ nav {
 
 }
 
-.card-png {
+.card {
     height: 100%;
     width: 100%;
 }
 
-.card-png img {
+.card img {
     padding-top: 40px;
     height: 80%;
     width: 20%;
