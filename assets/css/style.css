@@ -72,6 +72,12 @@ button {
     border-radius: 4px;
 }
 
+.filter{
+    padding-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
 footer {
     background-color: #0082e6;
     display: flex;
