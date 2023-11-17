@@ -17,15 +17,15 @@
 }
 
 nav {
+    height: 80px;
     grid-area: header-area;
     background-color: #00579c;
     display: flex;
 }
 
 .logo {
-    line-height: 80px;
     margin: 0 10px;
-    text-align: center;
+    align-items: center;
     width: 100%;
     display: flex;
     gap: 10px;
@@ -38,10 +38,11 @@ nav {
 
 .menu {
     padding-top: 15px;
+    align-items: center;
 }
 
 .menu img {
-    width: 40%;
+    width: 35%;
 }
 
 .menu-content {
@@ -116,6 +117,7 @@ border: solid 1px black;
 }
 
 footer {
+    font-size: x-small;
     grid-area: footer-area;
     color: white;
     background-color: #012f6b;
