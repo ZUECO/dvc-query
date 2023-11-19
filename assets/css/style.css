@@ -230,13 +230,7 @@ footer {
         padding: 10px;
     }
 
-    button {
-        background-color: black);
-        border: 1px solid;
-        border-color: lightgray;
-        cursor: pointer;
-        margin: 0;
-    }
+
 
     footer {
         grid-area: footer;
