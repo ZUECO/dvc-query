@@ -1,87 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Mother Board Store</title>
+    <link href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>DVC - Mother Board Store</title>
 </head>
 
 <body>
     <div class="container">
-        <!--* header-->
-        <header>
-            <nav>
-                <div class="logo">
-                    <img src="./assets/img/torre-de-pc.png" alt="torre-de-pc">
-                    <h1>Mother Board Store</h1>
-                </div>
-                <div class="menu">
-                    <img src="./assets/img/menu.png" alt="menu">
-                </div>
-                <ul class="menu-content">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Catalogo</a></li>
-                    <li><a href="#">Ofertas</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-            <section class="sidebar">
-                <ul class="menu-content">
-                    <li><a>Inicio</a></li>
-                    <li><a>Catalogo</a></li>
-                    <li><a>Ofertas</a></li>
-                    <li><a>Contacto</a></li>
-                </ul>
-            </section>
+        <nav>
             <section>
-                <div class="filter">
-                    <p>Ordenar Por:</p>
-                    <form action="#">
-                        <select id="mb" name="Mother Board">
-                            <option value="mb1">Mother Board</option>
-                            <option value="GPU">Graphic Cards</option>
-                        </select>
-                    </form>
-                </div>
+                <img src="./Assets/img/torre-de-pc.png" alt="">
+                <h3>Moder Board Store</h3>
+
             </section>
-        </header>
-        <!--* card and products-->
-        <section class="hero">
-            <div class="item">
-                <div class="product">
-                    <div class="card">
-                        <img src="./assets/img/b560-aorus-pro-ax-224990.png" alt="b560-aorus-pro-ax-">
-                    </div>
-                    <div class="text">
-                        <p>Model: M/B AMD B560 Aorus PRO AX</p>
-                    </div>
-                    <div class="bttn">
-                        <button>Ver Mas</button>
-                    </div>
-                </div>
-                <!--* Paginacion-->
-                <div class="page">
-                    <table>
-                        <tr>
-                            <th><</th>
-                            <th>1</th>
-                            <th>2</th>
-                            <th>3</th>
-                            <th>></th>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <!--* footer-->
-        <footer>
-            <article class="social">
-                <img src="/assets/img/instagram.png" alt="instagram">
-                <img src="/assets/img/facebook.png" alt="facebook">
+            <ul>
+                <li>Inicio</li>
+                <li>Catálogo</li>
+                <li>Ofertas</li>
+                <li>Contacto</li>
+            </ul>
+            <span class="mdi mdi-menu icons icons_material"></span>
+        </nav>
+        <article>
+            <p>Ordenar por :</p>
+            <select name="filtro">
+                <option value="">Precio</option>
+                <option value="">Gygabyte</option>
+                <option value="">MSI</option>
+                <option value="">ASROCK</option>
+                <option value="">ASUS</option>
+                <option value="">AMD</option>
+                <option value="">Intel</option>
+            </select>
+        </article>
+        <main>
+            <article>
+                <img src="Assets/img/x670e-plus-tuf-gaming-wifi-398190.png" alt="x670e-plus-tuf-gaming-wifi-398190">
+                <p>ASUS x670e Plus Tuf Gaming</p>
+                <button>Ver Más</button>
             </article>
-            <h1>Mother Board Store</h1>
+            <div class="row">
+                <figure>
+                    <img src="Assets/img/x670e-plus-tuf-gaming-wifi-398190.png" alt="x670e-plus-tuf-gaming-wifi-398190">
+                    <p>ASUS x670e Plus Tuf Gaming</p>
+                    <button>Ver Más</button>
+                </figure>
+                <figure>
+                    <img src="Assets/img/msi-tomahawk-b550-214990.png" alt="msi-tomahawk-b550-214990">
+                    <p>MSI Tomahawk B550</p>
+                    <button>Ver Más</button>
+                </figure>
+                <figure>
+                    <img src="Assets/img/x670e-rog-crosshair-hero-749990.png" alt="x670e-rog-crosshair-hero-749990">
+                    <p>ASUS x670e Rog Crosshair Hero</p>
+                    <button>Ver Más</button>
+                </figure>
+                <figure>
+                    <img src="Assets/img/b560-aorus-pro-ax-224990.png" alt="b560-aorus-pro-ax-224990">
+                    <p>ASUS x670e Plus Tuf Gaming</p>
+                    <button>Ver Más</button>
+                </figure>
+                <figure>
+                    <img src="Assets/img/x670e-plus-tuf-gaming-wifi-398190.png" alt="x670e-plus-tuf-gaming-wifi-398190">
+                    <p>ASUS x670e Plus Tuf Gaming</p>
+                    <button>Ver Más</button>
+                </figure>
+                <figure>
+                    <img src="Assets/img/msi-tomahawk-b550-214990.png" alt="msi-tomahawk-b550-214990">
+                    <p>MSI Tomahawk B550</p>
+                    <button>Ver Más</button>
+                </figure>
+                <figure>
+                    <img src="Assets/img/x670e-rog-crosshair-hero-749990.png" alt="x670e-rog-crosshair-hero-749990">
+                    <p>ASUS x670e Rog Crosshair Hero</p>
+                    <button>Ver Más</button>
+                </figure>
+                <figure>
+                    <img src="Assets/img/b560-aorus-pro-ax-224990.png" alt="b560-aorus-pro-ax-224990">
+                    <p>ASUS x670e Plus Tuf Gaming</p>
+                    <button>Ver Más</button>
+                </figure>
+            </div>
+            <section>
+                <button><</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>></button>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <span class="mdi mdi-facebook icons_material"></span>
+                <span class="mdi mdi-instagram icons_material"></span>
+            </section>
+            <p>Todos los derechos reservados</p>
         </footer>
     </div>
 </body>
